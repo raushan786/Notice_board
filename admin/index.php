@@ -1,7 +1,7 @@
 <?php
   session_start();
-  $connection = mysqli_connect("localhost","root","");
-  $db = mysqli_select_db($connection,"online_notice");
+//   $connection = mysqli_connect("localhost","root","");
+//   $db = mysqli_select_db($connection,"online_notice");
 
   if(isset($_POST['login'])){
     $query = "select * from admins where email = '$_POST[email]' AND password = '$_POST[password]'";
