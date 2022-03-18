@@ -45,7 +45,7 @@
       <div style="line-height: 35px; margin-left: 25px; margin-top: 5px;">
         <h3>Notice Board</h3>
       </div>
-      <div style="font-size: 20px; margin-left: 1100px; margin-top: 10px;"><a href="home.php" style="color: #fff; text-decoration: none; a:hover{color: #fff;"> Back to Home</a></div>
+      <div style="font-size: 20px; margin-left: 1100px; margin-top: 10px;"><a href="index.php" style="color: #fff; text-decoration: none; a:hover{color: #fff;"> Back to Home</a></div>
     </div>
 
     <!-- Login from code starts here -->
@@ -53,7 +53,7 @@
       <div class="row">
         <div class="col-md-4 m-auto block">
           <center><h4>Login Here</h4></center>
-          <form action="index.php" method="post">
+          <form action="login.php" method="post">
             <div class="form-group">
               <lable>Email ID:</label>
                 <input class="form-control" type="text" name="email" placeholder="Enter your email">
